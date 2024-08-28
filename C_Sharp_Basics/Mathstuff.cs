@@ -15,30 +15,29 @@ namespace C_Sharp_Basics
             Console.WriteLine("Choose which one you want to try first: ");
 
             bool Math_Addition = true;
+            int myAddition = 1;
             bool Math_Subtraction = true;
+            int mySubbtraction = 2;
             bool Math_Multiplication = true;
+            int myMultiplication = 3;
             bool Math_Division = true;
+            int myDivision = 4;
 
-            int A = 1;
-            int S = 2;
-            int M = 3;
-            int D = 4;
-
-            if (A == 1)
+            if (myAddition == 1)
             {
-                Console.WriteLine(Math_Addition);
+                _ = Console.ReadKey(Math_Addition);
             }
-            else if (S == 2)
+            else if (mySubbtraction == 2)
             {
-                Console.WriteLine(Math_Subtraction);
+                _ = Console.ReadKey(Math_Subtraction);
             }
-            else if (M == 3)
+            else if (myMultiplication == 3)
             {
-                Console.WriteLine(Math_Multiplication);
+                _ = Console.ReadKey(Math_Multiplication);
             }
-            else if (D == 4)
+            else if (myDivision == 4)
             {
-                Console.WriteLine(Math_Division);
+                _ = Console.ReadKey(Math_Division);
             }
             else
             {
