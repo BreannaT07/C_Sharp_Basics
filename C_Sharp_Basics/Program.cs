@@ -16,11 +16,11 @@ namespace C_Sharp_Basics
             //InputOutput();
 
             //Mattstuff.cs V
+            Mathstuff.Do_Stuff();
             Mathstuff.Math_Addition();
             Mathstuff.Math_Subtraction();
             Mathstuff.Math_Multiplication();
             Mathstuff.Math_Division();
-            Mathstuff.Do_Stuff();
 
 
 

@@ -11,39 +11,40 @@ namespace C_Sharp_Basics
         public static void Do_Stuff()
         {
             Console.WriteLine("Welcome to the greatest calulator ever. Choose which arithmetic operation you want to try out.");
-            Console.Write("\n1. Addition. \n2. Subraction. \n3. Multiplication. \n4. Division : ");
-            
-            {
-                int A = 1;
-                int S = 2;
-                int M = 3;
-                int D = 4;
+            Console.WriteLine("\n1. Addition \n2. Subraction \n3. Multiplication \n4. Division");
+            Console.WriteLine("Choose which one you want to try first: ");
 
-                if (A == 1)
-                {
-                    bool Math_Addition = true;
-                    Console.WriteLine(Math_Addition);
-                }
-                else if (S == 2)
-                {
-                    bool Math_Subtraction = true;
-                    Console.WriteLine(Math_Subtraction);
-                }
-                else if (M == 3)
-                {
-                    bool Math_Multiplication = true;
-                    Console.WriteLine(Math_Multiplication);
-                }
-                else if (D == 4)
-                {
-                    bool Math_Division = true;
-                    Console.WriteLine(Math_Division);
-                }
-                else
-                {
-                    Console.WriteLine("Sorry, that's not an option.");
-                }
+            bool Math_Addition = true;
+            bool Math_Subtraction = true;
+            bool Math_Multiplication = true;
+            bool Math_Division = true;
+
+            int A = 1;
+            int S = 2;
+            int M = 3;
+            int D = 4;
+
+            if (A == 1)
+            {
+                Console.WriteLine(Math_Addition);
             }
+            else if (S == 2)
+            {
+                Console.WriteLine(Math_Subtraction);
+            }
+            else if (M == 3)
+            {
+                Console.WriteLine(Math_Multiplication);
+            }
+            else if (D == 4)
+            {
+                Console.WriteLine(Math_Division);
+            }
+            else
+            {
+                Console.WriteLine("Sorry, that's not an option.");
+            }
+
         }
         public static void Math_Addition()
         {
