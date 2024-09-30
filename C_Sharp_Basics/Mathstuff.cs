@@ -14,34 +14,37 @@ namespace C_Sharp_Basics
             Console.WriteLine("\n1. Addition \n2. Subraction \n3. Multiplication \n4. Division");
             Console.WriteLine("Choose which one you want to try first: ");
 
-            bool Math_Addition = true;
+            var Math_Addition = true;
             int myAddition = 1;
-            bool Math_Subtraction = true;
+
+            var Math_Subtraction = true;
             int mySubbtraction = 2;
-            bool Math_Multiplication = true;
+
+            var Math_Multiplication = true;
             int myMultiplication = 3;
-            bool Math_Division = true;
+
+            var Math_Division = true;
             int myDivision = 4;
 
             if (myAddition == 1)
             {
-                _ = Console.ReadKey(Math_Addition);
+                Console.ReadKey(Math_Addition);
             }
             else if (mySubbtraction == 2)
             {
-                _ = Console.ReadKey(Math_Subtraction);
+                Console.ReadKey(Math_Subtraction);
             }
             else if (myMultiplication == 3)
             {
-                _ = Console.ReadKey(Math_Multiplication);
+                Console.ReadKey(Math_Multiplication);
             }
             else if (myDivision == 4)
             {
-                _ = Console.ReadKey(Math_Division);
+                Console.ReadKey(Math_Division);
             }
             else
             {
-                Console.WriteLine("Sorry, that's not an option.");
+                Console.Write("Sorry, that's not an option.");
             }
 
         }
